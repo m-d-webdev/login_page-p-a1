@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="thefirstdiv">
+        <div id="container">
+            <div class="absolute">
+                <span> </span>
+                <h3></h3>
+            </div>
+            <div class="contlofininputs">
+                <div class="logoo aa">
+                    <h2 id="hhh2">MSTPH</h2>
+                </div>
+                <div class="login aa">
+                    <div class="abbbb">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 256 256" fill="none" id="my-svg">
+                            <defs>
+                              <linearGradient id="gradient1">
+                                <stop class="stop1" offset="0%" stop-color="#8f66ff"></stop>
+                                <stop class="stop2" offset="100%" stop-color="#3d12ff"></stop>
+                              </linearGradient>
+                            </defs>
+                            <rect id="backgr" width="256" height="256" fill="none" rx="60"></rect>
+                            <path d="M32 74.667c0 -10.667 10.667 -21.333 21.333 -21.333h149.333c10.667 0 21.333 10.667 21.333 21.333M32 74.667v106.667c0 10.667 10.667 21.333 21.333 21.333h149.333c10.667 0 21.333 -10.667 21.333 -21.333V74.667M32 74.667l72.331 48.213a42.667 42.667 0 0 0 47.339 0L224 74.667" stroke="#fcfcfc" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" id="my-path" transform="translate(0,0) scale(1)"></path>
+                          </svg>
+                          <input type="text" name="" id="inputemail" autocomplete="on" placeholder="Enter E-mail adress">
+
+                    </div>
+                    <div class="abbbb">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 256 256" fill="none" id="my-svg">
+                            <defs>
+                              <linearGradient id="gradient1">
+                                <stop class="stop1" offset="0%" stop-color="#8f66ff"></stop>
+                                <stop class="stop2" offset="100%" stop-color="#3d12ff"></stop>
+                              </linearGradient>
+                            </defs>
+                            <rect id="backgr" width="256" height="256" fill="none" rx="60"></rect>
+                            <path d="M170.667 106.667V85.333C170.667 61.769 151.564 42.667 128.000 42.667C104.436 42.667 85.333 61.769 85.333 85.333V106.667M96.000 213.333H160.000C183.564 213.333 202.667 194.230 202.667 170.667V128.000C202.667 116.218 193.116 106.667 181.333 106.667H74.667C62.885 106.667 53.333 116.218 53.333 128.000V170.667C53.333 194.230 72.436 213.333 96.000 213.333Z" stroke="#fcfcfc" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" id="my-path" transform="translate(0,0) scale(1)"></path>
+                          </svg>
+                          <input type="password" name="" id="password" placeholder="************">
+                          <img src="eyes1.png" id="hiden" alt="">
+
+                    </div>
+                    <div id="abc"><button id="btn"> Login</button></div>
+                </div>
+                <div class="passworldforget aa">
+
+                    <button id="btncreat" onclick="bbbiii()"> Creat one </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script >
+let eyes =document.getElementById("hiden");
+let passwod=document.getElementById("password");
+eyes.onclick = function(){
+    if(passwod.type == "password"){
+        passwod.type= "text";
+        eyes.src ="eyes1.png";
+
+    }
+    else{
+        passwod.type= "password";
+        eyes.src ="eyes2.png";
+
+    }
+}
+    </script>
+</body>
+
+</html>
